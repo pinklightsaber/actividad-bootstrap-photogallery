@@ -1,11 +1,12 @@
+
+
 .bg {
 	background-image: url("assets/images/2.jpg");
 	padding: 0%;
 	background-size:  100%;
-	margin-top: 0;
+	margin-top: 0px;
 	text-align: center;
 	padding: 5%;
-
 }
 
 .bg h1{
@@ -19,6 +20,7 @@
 	border: 8px solid #888;
 	border-radius: 20px;
 	margin: 5%;
+	box-sizing: border-box;
   }
 
  .bordes p {
@@ -38,6 +40,8 @@
 	text-align: center;
 	border: 1px solid #ccc;
 }
-body {
-	margin: 0 auto;
-}
+.f {
+	background-color: #eee;
+	padding: 3px;
+
+ }
