@@ -1,9 +1,43 @@
-
-
 .bg {
 	background-image: url("assets/images/2.jpg");
+	padding: 0%;
+	background-size:  100%;
+	margin-top: 0;
+	text-align: center;
+	padding: 5%;
+
+}
+
+.bg h1{
+	color: white;
+}
+.bg small{
+	color: white;
 }
 
 .bordes {
-	margin: 3px solid gray;
+	border: 8px solid #888;
+	border-radius: 20px;
+	margin: 5%;
+  }
+
+ .bordes p {
+ 	padding: 5px
+ }
+.foto {
+	text-align: center;
+	padding-bottom: 20px;
+
+}
+.foto img {
+	width: 100%;
+}
+
+.icon {
+	font-size: 2em;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+body {
+	margin: 0 auto;
 }
